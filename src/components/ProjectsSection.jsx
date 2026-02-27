@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "The GrowGram 💪",
     description:"The Simple 30 Workouts Training Plan",
-    image: "/projects/growgram.png",
+    image: "projects/growgram.png",
     tags: ["ReactJS", "FantaCSS", "Javascript"],
     demoUrl: "https://drive.google.com/file/d/1dPqeY05Yuu9WwdSCTwy7rVC-nMMOHPlR/view?usp=sharing",
     githubUrl: "https://github.com/MiikaA1i/Growgram",
@@ -15,7 +15,7 @@ const projects = [
     id: 2,
     title: "Miika's Store",
     description: "A cool store for programmers to purchase stickers and planners.",
-    image: "/projects/banner.png",
+    image: "projects/banner.png",
     tags: ["ReactJS", "FantaCSS", "Javascript", "API"],
     demoUrl: "https://drive.google.com/file/d/1dPqeY05Yuu9WwdSCTwy7rVC-nMMOHPlR/view?usp=sharing",
     githubUrl: "https://github.com/MiikaA1i/Growgram",
@@ -56,7 +56,7 @@ export const ProjectsSection = () => {
             >
               <div className="h-48 overflow-hidden">
                 <img
-                  src={project.image}
+                  src={`${import.meta.env.BASE_URL}${project.image.replace(/^\//, "")}`}
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
@@ -118,7 +118,7 @@ export const ProjectsSection = () => {
             >
               <div className="h-48 overflow-hidden">
                 <img
-                  src={project.image}
+                  src={`${import.meta.env.BASE_URL}${project.image.replace(/^\//, "")}`}
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
