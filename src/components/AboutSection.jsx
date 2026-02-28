@@ -19,7 +19,7 @@ export const AboutSection = () => {
             <p className="text-muted-foreground">
               I'm a full stack developer who loves bringing idea's to life,
               through clean, responsive high performing web applications.
-              With under a year of real-world experience, i've developed a strong 
+              With under a year of real-world experience, I've developed a strong 
               passion about creating elegant solutions to complex
               problems, and I'm constantly learning new technologies and
               techniques to stay at the forefront of the ever-evolving web
@@ -27,9 +27,10 @@ export const AboutSection = () => {
             </p>
 
             <p className="text-muted-foreground">
-              However outside of the tech world i'm a big foodie given that,
-              whether it's the gym or in my code editor i will always value consistency,
-              discipline and growth.
+              Outside of the tech world I enjoy gaming, a passionate foodie and a cat lover who finds 
+              inspiration in both creativity and discipline. Fitness and health also play a big part of 
+              my lifestyle too, keeping me focused, balanced and motivated. I bring that same energy, curiosity
+             and creativity into my work - building things that are not only functional but meaningful and engaging.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -54,7 +55,7 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg"> Software Development</h4>
                   <p className="text-muted-foreground">
                     Creating responsive websites and web applications with
                     modern frameworks.

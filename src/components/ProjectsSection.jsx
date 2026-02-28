@@ -16,7 +16,7 @@ const projects = [
     title: "Miika's Store",
     description: "A cool store for programmers to purchase stickers and planners.",
     image: "projects/banner.png",
-    tags: ["ReactJS", "FantaCSS", "Javascript", "API"],
+    tags: ["ReactJS", "FantaCSS", "Javascript", "API", "Stripe"],
     demoUrl: "https://drive.google.com/file/d/1dPqeY05Yuu9WwdSCTwy7rVC-nMMOHPlR/view?usp=sharing",
     githubUrl: "https://github.com/MiikaA1i/Growgram",
   }
@@ -31,6 +31,7 @@ const clientProjects=[
       "Full-featured logistics platform with user authentication and payment processing. This was a research and develop project for my final year of studies.",
     image: "/projects/projectPoster.jpg",
     tags: ["React", "Node.js", "Stripe", "Typescipt", "Tailwind", "API"],
+    demoUrl: "https://www.linkedin.com/posts/malaika-ali-183229298_couple-days-ago-marked-an-incredible-milestone-activity-7393087805134073856-pWch?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEfvt7MBevrOCKU2z0843Z_r8M4vGgTHEbE"
   },
 ];
 
