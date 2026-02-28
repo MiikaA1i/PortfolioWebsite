@@ -109,13 +109,21 @@ export const Navbar = () => {
 
         <div
           className={cn(
-            "fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center",
+            "fixed top-0 left-0 w-screen h-screen bg-background z-[9999] flex flex-col items-center justify-center",
             "transition-all duration-300 md:hidden",
             isMenuOpen
               ? "opacity-100 pointer-events-auto"
               : "opacity-0 pointer-events-none"
           )}
         >
+          {/* Close button for mobile menu */}
+          <button
+            onClick={() => setIsMenuOpen(false)}
+            className="absolute top-8 right-6  z-[10000]"
+            aria-label="Close Menu"
+          >
+            <X size={30} />
+          </button>
           <div className="flex flex-col space-y-8 text-xl">
             {navItems.map((item, key) => (
               <a
