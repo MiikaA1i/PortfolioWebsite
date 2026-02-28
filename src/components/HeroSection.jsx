@@ -17,7 +17,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I create web experiences with modern technologies.
+            <br />
             Specializing in full-stack development, I build interfaces that are
             both pretty and functional.
           </p>
