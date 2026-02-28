@@ -17,8 +17,8 @@ const projects = [
     description: "A cool store for programmers to purchase stickers and planners.",
     image: "projects/banner.png",
     tags: ["ReactJS", "FantaCSS", "Javascript", "API", "Stripe"],
-    demoUrl: "https://drive.google.com/file/d/1dPqeY05Yuu9WwdSCTwy7rVC-nMMOHPlR/view?usp=sharing",
-    githubUrl: "https://github.com/MiikaA1i/Growgram",
+    demoUrl: "https://drive.google.com/file/d/1UHjfXTfaBSkO34n5RgYiAlXaAdc-UldA/view?usp=sharing",
+    githubUrl: "https://github.com/MiikaA1i/store",
   }
 
 ];
