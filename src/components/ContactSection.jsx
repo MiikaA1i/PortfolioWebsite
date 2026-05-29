@@ -73,17 +73,17 @@ export const ContactSection = () => {
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
+              <div className="flex items-start space-x-8">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Phone className="h-6 w-6 text-primary" />
                 </div>
                 <div>
                   <h4 className="font-medium">Phone</h4>
                   <a
-                    href="tel:+64224907893"
+                    href="tel:+61405853449"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +64 (022) 490-7893
+                    +61 405 853 449
                   </a>
                 </div>
               </div>
@@ -94,7 +94,7 @@ export const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Location</h4>
-                  <p className="text-muted-foreground">Auckland, New Zealand</p>
+                  <p className="text-muted-foreground">Sydney, NSW, Australia</p>
                 </div>
               </div>
             </div>
