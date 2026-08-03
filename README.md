@@ -15,6 +15,8 @@ skills and background as a software engineer based in Sydney 🌏
 ![JavaScript](https://img.shields.io/badge/JavaScript-E6D7F0?style=for-the-badge&logo=javascript&logoColor=6C3483)
 ![CSS3](https://img.shields.io/badge/CSS3-E6D7F0?style=for-the-badge&logo=css3&logoColor=6C3483)
 ![HTML5](https://img.shields.io/badge/HTML5-E6D7F0?style=for-the-badge&logo=html5&logoColor=6C3483)
+![Vite](https://img.shields.io/badge/Vite-E6D7F0?style=for-the-badge&logo=vite&logoColor=6C3483)
+
 
 Built without a framework — vanilla JS, CSS, and HTML, hand-crafted and 
 hosted among the stars via GitHub Pages ☁️
@@ -27,7 +29,7 @@ hosted among the stars via GitHub Pages ☁️
   Information Sciences — Software Development major, AI minor, AUT)
 - 🌠 **Projects** — Growgram, Hookline, and other constellations of code
 - 💫 **Skills** — TypeScript, React, Next.js, Node/Express, PostgreSQL, 
-  Python/FastAPI, Tailwind CSS
+   Tailwind CSS, 
 - 🌙 **Contact** — LinkedIn, email
 
 <br>
@@ -38,7 +40,7 @@ hosted among the stars via GitHub Pages ☁️
 git clone https://github.com/MiikaA1i/PortfolioWebsite.git
 cd PortfolioWebsite
 \`\`\`
-Then just open `index.html` in your browser — no build step, no rocket 
+npm install, npm run dev/npm run build/npm run preview — no build step, no rocket 
 fuel required 🚀
 
 <br>
